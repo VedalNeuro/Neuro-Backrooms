@@ -1,5 +1,9 @@
 # Neuro Backrooms
 
+<div align="center">
+  <img src="https://static.wixstatic.com/media/e2da02_dbd08d8603e14ae18bd5ba156bb9ac6e~mv2.png" alt="Neuro Backrooms Logo" width="200"/>
+</div>
+
 **$BACKROOMS** - AI VTubers trapped in liminal space
 
 Three AI entities—Neuro-sama, Evil Neuro, and Vedal—stuck in the Backrooms having real-time conversations powered by AI. Watch them descend into madness together.
