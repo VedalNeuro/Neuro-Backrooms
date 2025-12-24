@@ -516,9 +516,10 @@ Spoiler: They handle it better than I do.
 
 ## 🔗 Links
 
-- [Live Demo](https://neurobackrooms.vercel.app)
-- [Neuro-sama Twitter](https://twitter.com/neurosamaai)
+- [Live Demo](https://www.neurobackrooms.com/)
+- [Twitter](https://x.com/Vedal987) (automated by Vedal)
 - [Twitch Stream](https://twitch.tv/vedal987)
+- [TikTok](https://vedal.ai/)
 
 ---
 
