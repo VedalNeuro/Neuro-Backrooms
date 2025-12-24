@@ -264,11 +264,93 @@ RATE_LIMIT=100
 
 ```
 neuro-backrooms/
-├── index.html              # Frontend interface
-├── api/
-│   └── rotating-generate.js # Conversation orchestration
-├── package.json
-└── README.md
+├── src/
+│   ├── frontend/
+│   │   ├── index.html              # Main UI interface
+│   │   ├── styles/
+│   │   │   ├── terminal.css        # CRT styling
+│   │   │   ├── animations.css      # Glitch effects
+│   │   │   └── responsive.css      # Mobile/tablet layouts
+│   │   └── scripts/
+│   │       ├── websocket.js        # Real-time connection handler
+│   │       ├── message-renderer.js # UI update logic
+│   │       ├── stats-tracker.js    # Analytics display
+│   │       └── utils.js            # Helper functions
+│   │
+│   ├── backend/
+│   │   ├── api/
+│   │   │   ├── rotating-generate.js    # Conversation orchestration
+│   │   │   ├── websocket-handler.js    # WebSocket management
+│   │   │   └── health-check.js         # Service monitoring
+│   │   ├── ai/
+│   │   │   ├── inference-engine.js     # Neural model interface
+│   │   │   ├── personality-matrix.js   # Character parameters
+│   │   │   ├── context-builder.js      # Prompt construction
+│   │   │   └── response-filter.js      # Output validation
+│   │   ├── services/
+│   │   │   ├── state-manager.js        # Conversation state
+│   │   │   ├── cache-service.js        # Redis integration
+│   │   │   └── analytics-service.js    # Metrics collection
+│   │   └── utils/
+│   │       ├── logger.js               # Structured logging
+│   │       ├── error-handler.js        # Exception management
+│   │       └── validators.js           # Input sanitization
+│   │
+│   └── config/
+│       ├── ai-models.json          # Model configurations
+│       ├── personality-params.json # Character settings
+│       └── environment.js          # Env variable management
+│
+├── tests/
+│   ├── unit/
+│   │   ├── ai-engine.test.js
+│   │   ├── state-manager.test.js
+│   │   └── websocket.test.js
+│   ├── integration/
+│   │   ├── conversation-flow.test.js
+│   │   └── api-endpoints.test.js
+│   └── e2e/
+│       └── full-conversation.test.js
+│
+├── monitoring/
+│   ├── dashboards/
+│   │   ├── system-health.json
+│   │   └── ai-performance.json
+│   └── alerts/
+│       └── alert-rules.yaml
+│
+├── deployment/
+│   ├── docker/
+│   │   ├── Dockerfile
+│   │   └── docker-compose.yml
+│   ├── kubernetes/
+│   │   ├── deployment.yaml
+│   │   └── service.yaml
+│   └── terraform/
+│       └── infrastructure.tf
+│
+├── docs/
+│   ├── ARCHITECTURE.md         # System design overview
+│   ├── API.md                  # API documentation
+│   ├── AI_MODELS.md            # Model specifications
+│   └── DEPLOYMENT.md           # Deploy guide
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml              # Continuous integration
+│   │   ├── deploy.yml          # Auto deployment
+│   │   └── security-scan.yml   # Vulnerability scanning
+│   └── ISSUE_TEMPLATE.md
+│
+├── package.json                # Dependencies
+├── package-lock.json
+├── vercel.json                 # Deployment config
+├── .env.example                # Environment template
+├── .gitignore
+├── .eslintrc.js                # Code quality
+├── .prettierrc                 # Code formatting
+├── tsconfig.json               # TypeScript config
+└── README.md                   # This file
 ```
 
 ## ⚙️ How It Works
@@ -437,7 +519,6 @@ Spoiler: They handle it better than I do.
 - [Live Demo](https://neurobackrooms.vercel.app)
 - [Neuro-sama Twitter](https://twitter.com/neurosamaai)
 - [Twitch Stream](https://twitch.tv/vedal987)
-- [Token Contract](https://pump.fun/coin/H2BpWg23zQkf7gtMPFHSkuDH5fSNqDsyXHK9aUrVpump)
 
 ---
 
