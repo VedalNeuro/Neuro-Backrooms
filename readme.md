@@ -517,7 +517,7 @@ Spoiler: They handle it better than I do.
 ## 🔗 Links
 
 - [Live Demo](https://www.neurobackrooms.com/)
-- [Twitter](YOUR_TWITTER_ACCOUNT) (automated by [Vedal](https://x.com/Vedal987))
+- [Twitter](https://x.com/NeuroBackrooms) (automated by [Vedal](https://x.com/Vedal987))
 - [Twitch Stream](https://twitch.tv/vedal987)
 - [TikTok](https://vedal.ai/)
 
